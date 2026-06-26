@@ -1,20 +1,37 @@
 [
- {
-  "id": "oryx",
-  "type": "main",
-  "title": "ORYX",
-  "titleAr": "ORYX",
-  "description": "A unified ecosystem that brings together intelligent systems, software projects, tools, and future technologies under one platform.",
-  "descriptionAr": "منظومة تقنية تجمع الأنظمة الذكية والمشاريع البرمجية والأدوات والتقنيات المستقبلية تحت منصة واحدة.",
-  "image": "resources/projects/ORYX.jpeg", 
-  "status": "Development",
-  "tags": [
-    "AI",
-    "Web",
-    "Systems",
-    "Platform"
-  ],
-  "github": "#",
-  "demo": "https://saudqxx.github.io/oryx-cards-hub"
-}
+  {
+    "id": "oryx",
+    "type": "main",
+    "title": "ORYX",
+    "titleAr": "ORYX",
+    "description": "A unified ecosystem that brings together intelligent systems, software projects, tools, and future technologies under one platform.",
+    "descriptionAr": "منظومة تقنية تجمع الأنظمة الذكية والمشاريع البرمجية والأدوات والتقنيات المستقبلية تحت منصة واحدة.",
+    "image": "resources/projects/ORYX.jpeg",
+    "status": "Development",
+    "tags": [
+      "AI",
+      "Web",
+      "Systems",
+      "Platform"
+    ],
+    "github": "#",
+    "demo": "https://saudqxx.github.io/oryx-cards-hub"
+  },
+  {
+    "id": "start-step",
+    "type": "secondary",
+    "title": "Start Step",
+    "titleAr": "خطوة البداية",
+    "description": "Starting Is Easier Now.",
+    "descriptionAr": "البداية أسهل الآن | Starting Is Easier Now.",
+    "image": "resources/projects/ss.png",
+    "status": "Active",
+    "tags": [
+      "AI",
+      "Arabic SaaS",
+      "Productivity"
+    ],
+    "github": "#",
+    "demo": "https://start-step-x.vercel.app"
+  }
 ]
