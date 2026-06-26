@@ -216,7 +216,7 @@ Open `/css/style.css` and locate the `:root` pseudo-class:
 
 ## 6. Dynamic Projects Management (`projects.json`)
 
-All project showcases on `projects.html` and `index.html` are generated on-the-fly from `/data/projects.json`.
+All project showcases on `projects.html` and `index.html` are generated on-the-fly from `/data/projects.json`. Classification of projects no longer relies on their placement order inside the JSON file. Instead, it is governed explicitly by a dynamic `"type"` attribute.
 
 ### Schema Structure & Fields
 
@@ -225,6 +225,7 @@ Every project entry within the JSON array supports the following schema properti
 | Field Name | Data Type | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `id` | String | Yes | A unique string identifier used by the modal engine (e.g. `"pro-01"`). |
+| `type` | String | Yes | The project classification. Must be either `"main"` (renders as a Main Project and features on the Homepage) or `"secondary"` (renders as a Secondary Project). |
 | `title` | String | Yes | The name of the project shown when the English layout is active. |
 | `titleAr` | String | No | The name of the project shown when the Arabic layout is active. |
 | `description` | String | Yes | Project breakdown/summary in English. |
@@ -243,6 +244,7 @@ Here is a fully formatted example to paste inside `/data/projects.json`:
 [
   {
     "id": "project-01",
+    "type": "main",
     "title": "ORYX Neural Core Engine",
     "titleAr": "محرك نواة أوريكس العصبي",
     "description": "An automated AI orchestration system designed to process natural language datasets and deliver contextual reasoning pipelines.",
@@ -255,6 +257,7 @@ Here is a fully formatted example to paste inside `/data/projects.json`:
   },
   {
     "id": "project-02",
+    "type": "secondary",
     "title": "Autonomous Systems Grid",
     "titleAr": "شبكة الأنظمة المستقلة",
     "description": "A lightweight distributed pipeline managing real-time websocket transactions and edge cluster diagnostics.",
