@@ -1,1 +1,20 @@
-[]
+[
+  {
+  "id": "oryx",
+  "type": "main",
+  "title": "ORYX",
+  "titleAr": "أوريكس",
+  "description": "A unified ecosystem that brings together intelligent systems, software projects, tools, and future technologies under one platform.",
+  "descriptionAr": "منظومة تقنية تجمع الأنظمة الذكية والمشاريع البرمجية والأدوات والتقنيات المستقبلية تحت منصة واحدة.",
+  "image": "resources/projects/ORYX.jpeg",
+  "status": "Development",
+  "tags": [
+    "AI",
+    "Web",
+    "Systems",
+    "Platform"
+  ],
+  "github": "#",
+  "demo": "https://saudqxx.github.io/oryx-cards-hub"
+}
+]
