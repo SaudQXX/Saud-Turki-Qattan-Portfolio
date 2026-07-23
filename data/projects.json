@@ -6,7 +6,7 @@
     "titleAr": "ORYX",
     "description": "A comprehensive AI ecosystem for building intelligent applications, developer tools, and integrated AI-powered services.",
     "descriptionAr": "منظومة ORYX متكاملة للذكاء الاصطناعي تهدف إلى تطوير التطبيقات الذكية، وأدوات المطورين، والخدمات المدعومة بالذكاء الاصطناعي.",
-    "image": "resources/projects/oryx.jpeg",
+    "image": "resources/projects/Oryx.jpeg",
     "status": "Active",
     "tags": [
       "AI Ecosystem",
@@ -24,7 +24,7 @@
     "titleAr": "خطوة البداية",
     "description": "An AI-powered tool designed to simplify the first steps of learning and getting started with programming and technology.",
     "descriptionAr": "أداة مدعومة بالذكاء الاصطناعي تهدف إلى تسهيل الخطوات الأولى في تعلم.",
-    "image": "resources/projects/start-step.jpeg",
+    "image": "resources/projects/ss.png",
     "status": "Active",
     "tags": [
       "AI",
