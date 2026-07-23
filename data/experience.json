@@ -1,11 +1,64 @@
 [
-{
-  "id": "cert-cs50x",
-  "type": "main",
-  "year": "2026",
-  "title": "CS50x: Introduction to Computer Science",
-  "titleAr": "CS50x: Introduction to Computer Science",
-  "description": "Harvard University's flagship introduction to computer science, covering algorithms, data structures, memory, programming, web development, databases, and software engineering fundamentals.",
-  "descriptionAr": "الدورة الرئيسية لعلوم الحاسب من جامعة هارفارد، وتغطي الخوارزميات، وهياكل البيانات، وإدارة الذاكرة، والبرمجة، وتطوير الويب، وقواعد البيانات، وأساسيات هندسة البرمجيات."
-}
+  {
+    "id": "exp-oryx-founder",
+    "type": "main",
+    "year": "2024 - Present",
+    "title": "Founder & AI Systems Architect",
+    "titleAr": "المؤسس ومهندس أنظمة الذكاء الاصطناعي",
+    "company": "ORYX",
+    "companyAr": "أوريكس",
+    "description": "Leading the design and execution of modular autonomous agent pipelines, deep local model orchestrations, and secure integration gateways.",
+    "descriptionAr": "قيادة تصميم وتطوير خطوط إنتاج الوكلاء الأذكياء المستقلين، وإدارات النماذج اللغوية المحلية العميقة، وبوابات التكامل الآمنة.",
+    "tags": ["AI Agents", "LLMs", "Local Models", "System Architecture"]
+  },
+  {
+    "id": "cert-cs50x",
+    "type": "main",
+    "year": "2026",
+    "title": "CS50x: Introduction to Computer Science",
+    "titleAr": "CS50x: مقدمة في علوم الحاسب",
+    "company": "Harvard University",
+    "companyAr": "جامعة هارفارد",
+    "description": "Harvard University's flagship introduction to computer science, covering algorithms, data structures, memory, programming, web development, databases, and software engineering fundamentals.",
+    "descriptionAr": "الدورة الرئيسية لعلوم الحاسب من جامعة هارفارد، وتغطي الخوارزميات، وهياكل البيانات، وإدارة الذاكرة، والبرمجة، وتطوير الويب، وقواعد البيانات، وأساسيات هندسة البرمجيات.",
+    "image": "resources/experience/cs50x.jpeg",
+    "tags": ["C", "Python", "SQL", "Algorithms", "Web Development"]
+  },
+  {
+    "id": "exp-sr-dev",
+    "type": "main",
+    "year": "2022 - 2024",
+    "title": "Senior Full-Stack & AI Engineer",
+    "titleAr": "مهندس تطوير متكامل وذكاء اصطناعي أول",
+    "company": "Tech Solutions Corp",
+    "companyAr": "شركة الحلول التقنية",
+    "description": "Architected bilingual modern applications with reactive states, high-contrast user interfaces, and automated background analytical pipelines.",
+    "descriptionAr": "تصميم وبناء تطبيقات برمجية متكاملة ثنائية اللغة بواجهات تفاعلية متطورة، وإدارات آلية لقنوات التحليل البيانات الخلفية.",
+    "tags": ["React", "Node.js", "TypeScript", "Tailwind CSS", "APIs"]
+  },
+  {
+    "id": "cert-ai-neural",
+    "type": "secondary",
+    "year": "2023",
+    "title": "Advanced Neural Architectures Certification",
+    "titleAr": "شهادة البنيات العصبية المتقدمة",
+    "company": "AI Research Institute",
+    "companyAr": "معهد أبحاث الذكاء الاصطناعي",
+    "description": "Specialized training on model orchestration, context window optimization, and prompt engineering pipelines.",
+    "descriptionAr": "تدريب تخصصي متقدم في تنظيم النماذج اللغوية، وتحسين نوافذ السياق، وهندسة الأوامر الذكية.",
+    "certificate": "assets/certificates/cert-ai-neural.pdf",
+    "tags": ["Deep Learning", "Neural Networks", "NLP"]
+  },
+  {
+    "id": "cert-systems-sec",
+    "type": "secondary",
+    "year": "2021",
+    "title": "Distributed Systems & Security Expert",
+    "titleAr": "خبير الأنظمة الموزعة وحماية البيانات",
+    "company": "Global Security Academy",
+    "companyAr": "الأكاديمية العالمية للحماية",
+    "description": "Practical research and certification focused on asynchronous communication channels, high-availability clusters, and secure APIs.",
+    "descriptionAr": "بحث عملي وشهادة تخصصية تركز على قنوات الاتصال غير المتزامنة، وإدارة خوادم التواجد العالي، وحماية بوابات الربط البرمجية.",
+    "tags": ["Cybersecurity", "Distributed Systems", "Cloud Security"]
+  }
 ]
