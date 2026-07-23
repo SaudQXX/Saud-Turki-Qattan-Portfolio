@@ -1,37 +1,54 @@
 [
   {
-    "id": "oryx",
+    "id": "oryx-neural-core",
     "type": "main",
-    "title": "ORYX",
-    "titleAr": "ORYX",
-    "description": "A unified ecosystem that brings together intelligent systems, software projects, tools, and future technologies under one platform.",
-    "descriptionAr": "منظومة تقنية تجمع الأنظمة الذكية والمشاريع البرمجية والأدوات والتقنيات المستقبلية تحت منصة واحدة.",
-    "image": "resources/projects/ORYX.jpeg",
-    "status": "Development",
-    "tags": [
-      "AI",
-      "Web",
-      "Systems",
-      "Platform"
-    ],
-    "github": "#",
-    "demo": "https://saudqxx.github.io/oryx-cards-hub"
+    "title": "ORYX Neural Core Engine",
+    "titleAr": "محرك نواة أوريكس العصبي",
+    "description": "An automated AI orchestration system designed to process language models, coordinate agent groups, and output contextual structured logs.",
+    "descriptionAr": "نظام تنسيق وأتمتة ذكاء اصطناعي لتشغيل النماذج اللغوية، وتوجيه مجموعات الوكلاء الذكية، وتصدير السجلات السياقية المنظمة.",
+    "image": "assets/project_neural_core.jpg",
+    "status": "Active",
+    "tags": ["Gemini API", "Node.js", "TypeScript", "Docker"],
+    "github": "https://github.com/SaudQXX",
+    "demo": "#"
   },
   {
-    "id": "start-step",
+    "id": "portfolio-premium",
+    "type": "main",
+    "title": "Bilingual Developer Portfolio",
+    "titleAr": "معرض الأعمال البرمجي ثنائي اللغة",
+    "description": "A high-end, responsive developer portfolio featuring automatic LTR/RTL switching, interactive modals, and static JSON data engines.",
+    "descriptionAr": "معرض أعمال برمجي متكامل وفاخر يدعم التنقل التلقائي بين اتجاهات القراءة (عربي/إنجليزي)، مع نوافذ منبثقة تفاعلية وقاعدة بيانات JSON ديناميكية.",
+    "image": "assets/project_portfolio.jpg",
+    "status": "Completed",
+    "tags": ["Vanilla JS", "CSS Variables", "HTML5", "RTL/LTR"],
+    "github": "https://github.com/SaudQXX",
+    "demo": "https://ais-pre-5232qfiljhshjo6icrvecx-221282093483.europe-west2.run.app"
+  },
+  {
+    "id": "systems-grid",
     "type": "secondary",
-    "title": "Start Step",
-    "titleAr": "خطوة البداية",
-    "description": "Starting Is Easier Now.",
-    "descriptionAr": "البداية أسهل الآن | Starting Is Easier Now.",
-    "image": "resources/projects/ss.png",
+    "title": "Autonomous Systems Grid",
+    "titleAr": "شبكة الأنظمة المستقلة",
+    "description": "A lightweight distributed diagnostics pipeline tracking web-socket telemetry status and server node heartbeats.",
+    "descriptionAr": "ممر تشخيصي خفيف وموزع لتتبع إحصائيات اتصال الويب سوكيت وحالة نبضات خوادم الشبكة والخدمات الفورية.",
+    "image": "assets/project_grid.jpg",
+    "status": "Completed",
+    "tags": ["Websockets", "CSS Grid", "ES6+ JS"],
+    "github": "https://github.com/SaudQXX",
+    "demo": "#"
+  },
+  {
+    "id": "discord-bridge",
+    "type": "secondary",
+    "title": "ORYX Discord Bridge",
+    "titleAr": "جسر أوريكس لديسكورد",
+    "description": "An automated integration tool bridging chat channels with background AI processing servers for remote task orchestrations.",
+    "descriptionAr": "أداة تكامل مؤتمتة لربط قنوات الدردشة مع خوادم معالجة الذكاء الاصطناعي الخلفية لإدارة المهام عن بعد.",
+    "image": "assets/project_discord.jpg",
     "status": "Active",
-    "tags": [
-      "AI",
-      "Arabic SaaS",
-      "Productivity"
-    ],
-    "github": "#",
-    "demo": "https://start-step-x.vercel.app"
+    "tags": ["Discord.js", "AI Integration", "API Proxy"],
+    "github": "https://github.com/SaudQXX",
+    "demo": "#"
   }
 ]

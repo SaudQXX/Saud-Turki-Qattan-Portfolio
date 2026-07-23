@@ -280,12 +280,14 @@ Here is a fully formatted example to paste inside `/data/projects.json`:
 
 ## 7. Dynamic Experience Management (`experience.json`)
 
-The timeline shown in `experience.html` is dynamically generated from `/data/experience.json`.
+The timeline shown in `experience.html` is dynamically generated from `/data/experience.json`. Classification of career items no longer relies on their placement order inside the JSON file. Instead, it is governed explicitly by a dynamic `"type"` attribute to separate main/professional experiences from secondary ones (such as training or certifications).
 
 ### Schema Structure & Fields
 
 | Field Name | Data Type | Required | Description |
 | :--- | :--- | :--- | :--- |
+| `id` | String | Yes | A unique string identifier used for data tracking (e.g. `"exp-01"`). |
+| `type` | String | Yes | The experience classification. Must be either `"main"` (renders in the Main Experience timeline) or `"secondary"` (renders in the Secondary Experience timeline). |
 | `year` | String | Yes | The timeframe or exact date range (e.g. `"2025 - Present"`, `"2024"`). |
 | `title` | String | Yes | The job title, academic achievement, or certification name in English. |
 | `titleAr` | String | No | The job title, academic achievement, or certification name in Arabic. |
@@ -299,18 +301,22 @@ Below is a complete, ready-to-use array for `/data/experience.json`:
 ```json
 [
   {
-    "year": "2024 - 2026",
-    "title": "Chief Systems Architect at ORYX",
-    "titleAr": "كبير مهندسي الأنظمة في أوريكس",
-    "description": "Designed and deployed custom micro-architectures, integrating distributed machine learning models with standard enterprise APIs.",
-    "descriptionAr": "تصميم ونشر معماريات دقيقة متكاملة، وربط نماذج تعلم الآلة الموزعة مع واجهات برمجة التطبيقات للمؤسسات."
+    "id": "exp-oryx-founder",
+    "type": "main",
+    "year": "2024 - Present",
+    "title": "Founder & AI Systems Architect | ORYX",
+    "titleAr": "المؤسس ومهندس أنظمة الذكاء الاصطناعي | أوريكس",
+    "description": "Leading the design and execution of modular autonomous agent pipelines, deep local model orchestrations, and secure integration gateways.",
+    "descriptionAr": "قيادة تصميم وتطوير خطوط إنتاج الوكلاء الأذكياء المستقلين، وإدارات النماذج اللغوية المحلية العميقة، وبوابات التكامل الآمنة."
   },
   {
+    "id": "cert-ai-neural",
+    "type": "secondary",
     "year": "2023",
-    "title": "Full Stack Web Innovator",
-    "titleAr": "مبتكر ويب متكامل",
-    "description": "Developed and maintained highly responsive portfolio sites, single-page client engines, and fast-parsing static pipelines.",
-    "descriptionAr": "تطوير وصيانة مواقع ويب عالية الاستجابة، محركات العميل أحادية الصفحة، ومسارات تحليل البيانات السريعة."
+    "title": "Advanced Neural Architectures Certification",
+    "titleAr": "شهادة البنيات العصبية المتقدمة",
+    "description": "Specialized training on model orchestration, context window optimization, and prompt engineering pipelines.",
+    "descriptionAr": "تدريب تخصصي متقدم في تنظيم النماذج اللغوية، وتحسين نوافذ السياق، وهندسة الأوامر الذكية."
   }
 ]
 ```

@@ -86,8 +86,8 @@ function renderProjects(projects, lang, containerId = 'projects-container', limi
   }, 100);
 }
 
-function renderExperience(experience, lang) {
-  const container = document.getElementById('experience-timeline');
+function renderExperience(experience, lang, containerId = 'experience-timeline') {
+  const container = document.getElementById(containerId);
   if (!container) return;
   
   container.innerHTML = '';
@@ -101,18 +101,11 @@ function renderExperience(experience, lang) {
         <p style="font-size: 0.85rem; color: var(--text-muted);">${lang === 'ar' ? 'يمكنك إضافة بطاقات خبرات جديدة في ملف data/experience.json' : 'You can add new experience cards in data/experience.json'}</p>
       </div>
     `;
-    // Hide the vertical timeline bar by adding a class or inline style
-    const timelineElement = document.querySelector('.timeline');
-    if (timelineElement) {
-      timelineElement.style.setProperty('--timeline-bar-display', 'none');
-    }
+    container.style.setProperty('--timeline-bar-display', 'none');
     return;
   }
   
-  const timelineElement = document.querySelector('.timeline');
-  if (timelineElement) {
-    timelineElement.style.setProperty('--timeline-bar-display', 'block');
-  }
+  container.style.setProperty('--timeline-bar-display', 'block');
   
   experience.forEach((exp, index) => {
     const title = lang === 'ar' && exp.titleAr ? exp.titleAr : exp.title;
@@ -169,7 +162,7 @@ window.closeModal = function() {
 document.addEventListener('DOMContentLoaded', async () => {
   const isProjectsPage = !!document.getElementById('main-projects-container');
   const isHomePage = !!document.getElementById('home-projects-grid');
-  const isExperiencePage = !!document.getElementById('experience-timeline');
+  const isExperiencePage = !!document.getElementById('main-experience-timeline') || !!document.getElementById('experience-timeline');
   
   const defaultLang = document.documentElement.lang || 'ar';
   
@@ -189,11 +182,25 @@ document.addEventListener('DOMContentLoaded', async () => {
   
   if (isExperiencePage) {
     const experienceData = await loadData('data/experience.json');
-    renderExperience(experienceData, defaultLang);
+    if (document.getElementById('main-experience-timeline')) {
+      const mainExp = experienceData.filter(e => e.type === 'main');
+      const secondaryExp = experienceData.filter(e => e.type === 'secondary');
+      renderExperience(mainExp, defaultLang, 'main-experience-timeline');
+      renderExperience(secondaryExp, defaultLang, 'secondary-experience-timeline');
+    } else {
+      renderExperience(experienceData, defaultLang);
+    }
     
     // Listen for language changes to re-render
     window.addEventListener('languageChanged', (e) => {
-      renderExperience(experienceData, e.detail.lang);
+      if (document.getElementById('main-experience-timeline')) {
+        const mainExp = experienceData.filter(e => e.type === 'main');
+        const secondaryExp = experienceData.filter(e => e.type === 'secondary');
+        renderExperience(mainExp, e.detail.lang, 'main-experience-timeline');
+        renderExperience(secondaryExp, e.detail.lang, 'secondary-experience-timeline');
+      } else {
+        renderExperience(experienceData, e.detail.lang);
+      }
     });
   }
   
