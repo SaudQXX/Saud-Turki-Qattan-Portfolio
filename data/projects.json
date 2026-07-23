@@ -15,7 +15,7 @@
       "Automation"
     ],
     "github": "#",
-    "demo": "#"
+    "demo": "https://saudqxx.github.io/oryx-cards-hub/"
   },
   {
     "id": "start-step",
@@ -34,6 +34,6 @@
       "Programming"
     ],
     "github": "#",
-    "demo": "#"
+    "demo": "https://start-step-x.vercel.app/"
   }
 ]
