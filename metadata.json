@@ -1,0 +1,6 @@
+{
+  "name": "Premium Portfolio",
+  "description": "A modern premium portfolio website built with pure HTML, CSS, and Vanilla JS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
