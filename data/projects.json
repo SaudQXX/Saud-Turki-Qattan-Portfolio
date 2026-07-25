@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "oryx",
+    "title": "ORYX",
+    "titleAr": "ORYX",
+    "description": "A comprehensive AI ecosystem that brings together intelligent applications, developer tools, and AI-powered digital solutions within a unified platform.",
+    "descriptionAr": "منظومة ORYX متكاملة تجمع التطبيقات الذكية، وأدوات المطورين، والحلول الرقمية المدعومة بالذكاء الاصطناعي ضمن منصة موحدة.",
+    "image": "resources/projects/oryx.jpeg",
+    "tags": [
+      "AI Ecosystem",
+      "Artificial Intelligence",
+      "Developer Tools",
+      "Automation",
+      "Productivity"
+    ],
+    "demo": "#",
+    "github": "https://saudqxx.github.io/oryx-cards-hub/"
+  },
+  {
+    "id": "start-step",
+    "title": "خطوة البداية",
+    "titleAr": "خطوة البداية",
+    "description": "An AI-powered tool designed to help beginners start their programming journey with guidance, learning resources, and practical assistance.",
+    "descriptionAr": "أداة مدعومة بالذكاء الاصطناعي تساعد المبتدئين على بدء رحلتهم في تعلم البرمجة من خلال الإرشاد، والموارد التعليمية، والمساعدة العملية.",
+    "image": "resources/projects/start-step.jpeg",
+    "tags": [
+      "AI",
+      "Beginners",
+      "Programming",
+      "Learning",
+      "Education"
+    ],
+    "demo": "#",
+    "github": "https://start-step-x.vercel.app/"
+  }
+]
