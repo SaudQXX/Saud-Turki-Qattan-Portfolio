@@ -303,7 +303,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const mainProjects = currentProjects.filter(p => p.type === 'main');
         const secondaryProjects = currentProjects.filter(p => p.type === 'secondary');
         renderProjects(mainProjects, e.detail.lang, 'main-projects-container');
-        renderProjects(secondaryProjects, e.detail.lang, 'secondary-experience-grid');
+        renderProjects(secondaryProjects, e.detail.lang, 'secondary-projects-container');
       }
       if (isHomePage) {
         const featured = currentProjects.filter(p => p.type === 'main');
