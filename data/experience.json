@@ -3,8 +3,8 @@
     "id": "cert-cs50x",
     "title": "CS50x: Introduction to Computer Science",
     "titleAr": "CS50x: Introduction to Computer Science",
-    "description": "Harvard University's flagship introduction to computer science, covering computational thinking, algorithms, data structures, C, Python, SQL, JavaScript, web development, and software engineering fundamentals.",
-    "descriptionAr": "الدورة الرئيسية لعلوم الحاسب من جامعة هارفارد، وتغطي التفكير الحاسوبي، والخوارزميات، وهياكل البيانات، ولغات C وPython وSQL وJavaScript، بالإضافة إلى تطوير الويب وأساسيات هندسة البرمجيات.",
+    "description": "Harvard University's flagship introduction to computer science, covering computational thinking, algorithms, data structures, memory management, C, Python, SQL, JavaScript, web development, and software engineering fundamentals through hands-on problem sets and a final project.",
+    "descriptionAr": "الدورة الرائدة في علوم الحاسب من جامعة هارفارد، وتغطي التفكير الحاسوبي، والخوارزميات، وهياكل البيانات، وإدارة الذاكرة، ولغات C وPython وSQL وJavaScript، بالإضافة إلى تطوير الويب وأساسيات هندسة البرمجيات من خلال تمارين عملية ومشروع نهائي.",
     "company": "Harvard University",
     "companyAr": "Harvard University",
     "year": "2026",
@@ -14,12 +14,122 @@
       "CS50x",
       "Computer Science",
       "Algorithms",
+      "Data Structures",
+      "Memory Management",
       "C",
       "Python",
       "SQL",
       "JavaScript",
-      "Web Development"
+      "Web Development",
+      "Software Engineering"
     ],
     "type": "main"
+  },
+  {
+    "id": "cert-intro-to-networking",
+    "title": "Introduction to Networking",
+    "titleAr": "Introduction to Networking",
+    "description": "An introductory course covering computer networking fundamentals, network devices, TCP/IP, IP addressing, DNS, network topologies, wired and wireless communication, and basic network configuration.",
+    "descriptionAr": "دورة تأسيسية تغطي أساسيات شبكات الحاسوب، وأجهزة الشبكات، وبروتوكولات TCP/IP، وعنونة IP، وآلية عمل DNS، وطوبولوجيا الشبكات، والاتصالات السلكية واللاسلكية، بالإضافة إلى إعدادات الشبكات الأساسية.",
+    "company": "Edraak",
+    "companyAr": "Edraak",
+    "year": "2025",
+    "image": "resources/experience/intro-to-networking.jpg",
+    "certificate": "resources/experience/intro-to-networking.pdf",
+    "tags": [
+      "Networking",
+      "TCP/IP",
+      "DNS",
+      "IP Addressing",
+      "Network Configuration",
+      "Wired Networks",
+      "Wireless Networks"
+    ],
+    "type": "secondary"
+  },
+  {
+    "id": "cert-python-101",
+    "title": "Python 101",
+    "titleAr": "Python 101",
+    "description": "A beginner-level Python course covering programming fundamentals, syntax, variables, operators, control flow, and problem-solving using Python.",
+    "descriptionAr": "دورة تأسيسية في لغة بايثون تغطي أساسيات البرمجة، وبنية اللغة، والمتغيرات، والعوامل، وجمل التحكم، وأساليب حل المشكلات باستخدام Python.",
+    "company": "Satr - Tuwaiq Academy",
+    "companyAr": "Satr - Tuwaiq Academy",
+    "year": "2025",
+    "image": "resources/experience/python-101.png",
+    "certificate": "resources/experience/python-101.pdf",
+    "tags": [
+      "Python",
+      "Programming",
+      "Programming Basics",
+      "Satr",
+      "Tuwaiq Academy"
+    ],
+    "type": "secondary"
+  },
+  {
+    "id": "cert-python-102",
+    "title": "Python 102",
+    "titleAr": "Python 102",
+    "description": "An intermediate Python course focusing on functions, collections, data structures, modules, and writing organized, reusable code.",
+    "descriptionAr": "دورة متوسطة في لغة بايثون تركز على الدوال، وهياكل البيانات، والمجموعات، والوحدات البرمجية، وكتابة كود منظم وقابل لإعادة الاستخدام.",
+    "company": "Satr - Tuwaiq Academy",
+    "companyAr": "Satr - Tuwaiq Academy",
+    "year": "2025",
+    "image": "resources/experience/python-102.jpg",
+    "certificate": "resources/experience/python-102.pdf",
+    "tags": [
+      "Python",
+      "Functions",
+      "Data Structures",
+      "Intermediate Python",
+      "Satr",
+      "Tuwaiq Academy"
+    ],
+    "type": "secondary"
+  },
+  {
+    "id": "cert-python-103",
+    "title": "Python 103",
+    "titleAr": "Python 103",
+    "description": "An advanced Python course introducing object-oriented programming (OOP), exception handling, file operations, and writing scalable Python applications.",
+    "descriptionAr": "دورة متقدمة في لغة بايثون تقدم مفاهيم البرمجة كائنية التوجه (OOP)، ومعالجة الأخطاء، والتعامل مع الملفات، وكتابة تطبيقات أكثر تنظيماً وقابلية للتوسع.",
+    "company": "Satr - Tuwaiq Academy",
+    "companyAr": "Satr - Tuwaiq Academy",
+    "year": "2026",
+    "image": "resources/experience/python-103.png",
+    "certificate": "resources/experience/python-103.pdf",
+    "tags": [
+      "Python",
+      "Object-Oriented Programming",
+      "OOP",
+      "Exception Handling",
+      "Advanced Python",
+      "Satr",
+      "Tuwaiq Academy"
+    ],
+    "type": "secondary"
+  },
+  {
+    "id": "cert-python-104",
+    "title": "Python 104",
+    "titleAr": "Python 104",
+    "description": "An advanced Python course covering professional programming practices, Python libraries, modular application development, and practical software engineering concepts.",
+    "descriptionAr": "دورة متقدمة في لغة بايثون تغطي أفضل ممارسات البرمجة الاحترافية، واستخدام مكتبات Python، وبناء التطبيقات بطريقة معيارية، ومفاهيم تطوير البرمجيات العملية.",
+    "company": "Satr - Tuwaiq Academy",
+    "companyAr": "Satr - Tuwaiq Academy",
+    "year": "2026",
+    "image": "resources/experience/python-104.png",
+    "certificate": "resources/experience/python-104.pdf",
+    "tags": [
+      "Python",
+      "Software Development",
+      "Python Libraries",
+      "Modular Programming",
+      "Advanced Python",
+      "Satr",
+      "Tuwaiq Academy"
+    ],
+    "type": "secondary"
   }
 ]
