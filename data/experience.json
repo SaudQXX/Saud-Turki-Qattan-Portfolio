@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "cert-cs50x",
+    "title": "CS50x: Introduction to Computer Science",
+    "titleAr": "CS50x: Introduction to Computer Science",
+    "description": "Harvard University's flagship introduction to computer science, covering algorithms, data structures, programming, web development, databases, and software engineering fundamentals.",
+    "descriptionAr": "الدورة الرئيسية لعلوم الحاسب من جامعة هارفارد، وتغطي الخوارزميات، وهياكل البيانات، والبرمجة، وتطوير الويب، وقواعد البيانات، وأساسيات هندسة البرمجيات.",
+    "company": "Harvard University",
+    "companyAr": "Harvard University",
+    "year": "2026",
+    "image": "resources/experience/cs50x.jpeg",
+    "certificate": "resources/experience/cs50x.pdf",
+    "tags": [
+      "CS50x",
+      "Computer Science",
+      "Algorithms",
+      "C",
+      "Python",
+      "SQL",
+      "JavaScript",
+      "Web Development"
+    ],
+    "type": "main"
+  }
+]
