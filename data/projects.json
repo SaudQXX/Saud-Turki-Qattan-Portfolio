@@ -3,34 +3,38 @@
     "id": "oryx",
     "title": "ORYX",
     "titleAr": "ORYX",
-    "description": "The all-in-one AI ecosystem for intelligent tools, developer solutions, and next-generation AI-powered digital experiences.",
-    "descriptionAr": "منظومة ORYX المتكاملة التي تجمع الأدوات الذكية، وحلول المطورين، وتجارب رقمية مدعومة بالذكاء الاصطناعي في منصة موحدة.",
+    "description": "The all-in-one AI ecosystem bringing together intelligent tools, developer solutions, and next-generation AI experiences in one unified platform.",
+    "descriptionAr": "منظومة ORYX المتكاملة التي تجمع الأدوات الذكية، وحلول المطورين، وتجارب الذكاء الاصطناعي في منصة موحدة.",
+    "status": "Active",
     "image": "resources/projects/oryx.jpeg",
+    "demo": "https://saudqxx.github.io/oryx-cards-hub/",
+    "github": "#",
     "tags": [
       "AI Ecosystem",
       "Developer Tools",
-      "Artificial Intelligence",
+      "AI Platform",
       "Automation",
-      "Innovation"
+      "Productivity"
     ],
-    "demo": "https://saudqxx.github.io/oryx-cards-hub/",
-    "github": "#"
+    "type": "main"
   },
   {
     "id": "start-step",
     "title": "خطوة البداية",
     "titleAr": "خطوة البداية",
-    "description": "Turn any idea into five clear AI-powered action steps and start building with confidence.",
-    "descriptionAr": "حوّل أي فكرة إلى خمس خطوات عملية واضحة بالذكاء الاصطناعي، وابدأ التنفيذ بثقة.",
+    "description": "Transform any idea into five clear AI-powered action steps and turn inspiration into execution.",
+    "descriptionAr": "حوّل أي فكرة إلى خمس خطوات عملية مدعومة بالذكاء الاصطناعي، وانتقل من الإلهام إلى التنفيذ.",
+    "status": "Active",
     "image": "resources/projects/start-step.jpeg",
+    "demo": "https://start-step-x.vercel.app/",
+    "github": "#",
     "tags": [
       "AI",
       "Idea Planning",
       "Action Steps",
       "Productivity",
-      "Beginners"
+      "Execution"
     ],
-    "demo": "https://start-step-x.vercel.app/",
-    "github": "#"
+    "type": "secondary"
   }
 ]
