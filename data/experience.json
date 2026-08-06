@@ -139,5 +139,31 @@
       "Tuwaiq Academy"
     ],
     "type": "secondary"
-  }
+  },
+  {
+  "id": "cert-ai-fundamentals",
+  "title": "AI Fundamentals: Foundations for Understanding AI",
+  "titleAr": "AI Fundamentals: Foundations for Understanding AI",
+  "description": "IBM SkillsBuild learning plan covering the foundations of Artificial Intelligence, including machine learning, neural networks, deep learning, predictive AI, computer vision, generative AI, ethical AI, and practical AI applications. Completed with an official IBM SkillsBuild digital credential.",
+  "descriptionAr": "خطة تعلم من IBM SkillsBuild تغطي أساسيات الذكاء الاصطناعي، بما في ذلك تعلم الآلة، والشبكات العصبية، والتعلم العميق، والذكاء الاصطناعي التنبؤي، والرؤية الحاسوبية، والذكاء الاصطناعي التوليدي، وأخلاقيات الذكاء الاصطناعي، مع الحصول على الشارة الرقمية الرسمية من IBM SkillsBuild.",
+  "company": "IBM SkillsBuild",
+  "companyAr": "IBM SkillsBuild",
+  "year": "2026",
+  "image": "resources/experience/ibm-skillsbuild.png",
+  "certificate": "resources/experience/AI Fundamentals Foundations for Understanding AI (Earn a digital credential!).pdf",
+  "tags": [
+    "Artificial Intelligence",
+    "AI Fundamentals",
+    "Machine Learning",
+    "Neural Networks",
+    "Deep Learning",
+    "Generative AI",
+    "Computer Vision",
+    "Predictive AI",
+    "AI Ethics",
+    "IBM",
+    "IBM SkillsBuild"
+  ],
+  "type": "main"
+}
 ]
