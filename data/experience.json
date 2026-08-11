@@ -165,5 +165,25 @@
     "IBM SkillsBuild"
   ],
   "type": "main"
+},{
+  "id": "cert-oracle-database-explorer",
+  "title": "Oracle Database Explorer",
+  "titleAr": "Oracle Database Explorer",
+  "description": "Oracle Database fundamentals covering architecture, DBCA, multitenant databases, RAC, and sharding. Completed with 95% and earned the Oracle Database Explorer Badge.",
+  "descriptionAr": "أساسيات Oracle Database تشمل البنية وDBCA وMultitenant وRAC وSharding. تم الإكمال بدرجة 95% والحصول على Oracle Database Explorer Badge.",
+  "company": "Oracle University",
+  "companyAr": "Oracle University",
+  "year": "2026",
+  "image": "resources/experience/Oracle Database Explorer Badge.png",
+  "certificate": "resources/experience/Oracle Database Explorer Achievement.pdf",
+  "tags": [
+    "Oracle Database",
+    "DBCA",
+    "Multitenant",
+    "RAC",
+    "Sharding",
+    "Database Administration"
+  ],
+  "type": "main"
 }
 ]
